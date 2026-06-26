@@ -8,6 +8,13 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
+    /* This changes the main site background to a subtle military-tinted grey */
+    background-color: #e9edea; 
+    color: #2f3640;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f5f6fa;
     color: #2f3640;
 }
