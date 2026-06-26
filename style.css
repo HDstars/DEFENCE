@@ -1,1 +1,54 @@
+/* Core Styling Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f6fa;
+    color: #2f3640;
+}
+
+/* Sticky Navigation Layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e272e;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    color: #fbc531;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #fbc531;
+}
+
+/* Military Themed Hero Banner */
+.hero {
+    background: linear-gradient(rgba(30, 39, 46, 0.8), rgba(30, 39, 46, 0.85)), url('
